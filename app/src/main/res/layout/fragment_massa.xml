@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MassaFragment">
+
+    <ImageView
+        android:id="@+id/iv_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/tombol_keluar"
+        android:src="@drawable/ic_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_massa"
+        style="@style/TextWhitePoppinsBold32Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/massa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logout" />
+
+    <RelativeLayout
+        android:id="@+id/rv_spinner_ukuran_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tv_massa"
+        app:layout_constraintStart_toStartOf="@+id/tv_massa"
+        app:layout_constraintTop_toBottomOf="@+id/tv_massa">
+
+        <Spinner
+            android:id="@+id/spinner_ukuran_1"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:foregroundTint="@color/black" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_ukuran_1"
+        style="@style/EditTextOnly"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/masukan_angka"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/rv_spinner_ukuran_1"
+        app:layout_constraintStart_toStartOf="@+id/rv_spinner_ukuran_1"
+        app:layout_constraintTop_toBottomOf="@+id/rv_spinner_ukuran_1" />
+
+    <RelativeLayout
+        android:id="@+id/rv_spinner_ukuran_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/et_ukuran_1"
+        app:layout_constraintStart_toStartOf="@+id/et_ukuran_1"
+        app:layout_constraintTop_toBottomOf="@+id/et_ukuran_1">
+
+        <Spinner
+            android:id="@+id/spinner_ukuran_2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:foregroundTint="@color/black" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_ukuran_2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/masukan_angka"
+        android:inputType="number|numberDecimal"
+        style="@style/EditTextOnly"
+        app:layout_constraintEnd_toEndOf="@+id/rv_spinner_ukuran_2"
+        app:layout_constraintStart_toStartOf="@+id/rv_spinner_ukuran_2"
+        app:layout_constraintTop_toBottomOf="@+id/rv_spinner_ukuran_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

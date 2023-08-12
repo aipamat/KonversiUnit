@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PoppinsLight" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="PoppinsRegular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextWhitePoppinsBold32Light" parent="PoppinsLight">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextWhitePoppins20Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextWhitePoppins16Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBlackPoppins20Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextBluePoppinsBold16Regular" parent="PoppinsRegular">
+        <item name="android:textColor">@color/txt_blue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

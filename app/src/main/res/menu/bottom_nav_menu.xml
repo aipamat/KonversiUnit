@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/panjang"
+        android:icon="@drawable/ic_panjang"
+        android:title="Panjang" />
+    <item
+        android:id="@+id/massa"
+        android:icon="@drawable/ic_massa"
+        android:title="Massa" />
+    <item
+        android:id="@+id/gaya"
+        android:icon="@drawable/ic_gaya"
+        android:title="Gaya" />
+    <item
+        android:id="@+id/energi"
+        android:icon="@drawable/ic_energi"
+        android:title="Energi" />
+</menu>

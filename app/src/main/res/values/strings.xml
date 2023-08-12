@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KonversiUnit</string>
+    <!--Title Onboarding-->
+    <string name="title1">Selamat Datang</string>
+    <string name="title2">Fungsi Aplikasi</string>
+    <string name="title3">Mari Mulai</string>
+    <!--./Title Onboarding-->
+    <!--Description Onboarding-->
+    <string name="description1">Di aplikasi Konversi Unit, aplikasi ini diperuntukan bagi orang yang ingin mengkonversi sebuah satuan ke satuan lainnya</string>
+    <string name="description2">Aplikasi ini dapat digunakan untuk mengkonversi berbagai satuan fisika yang ada seperti panjang, massa, gaya dan energi</string>
+    <string name="description3">Mari mulai mencoba aplikasi ini , ayo mengkonversi teman-teman!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tombol_keluar">Tombol Keluar</string>
+    <string name="panjang">PANJANG</string>
+    <string name="energi">ENERGI</string>
+    <string name="masukan_angka">Masukan angka</string>
+    <string name="massa">MASSA</string>
+    <string name="gaya">GAYA</string>
+    <!--./Description Onboarding-->
+
+</resources>
